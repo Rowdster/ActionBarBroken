@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="ApplicationTheme" parent="@android:style/Theme.Light">
+    <item name="android:windowActionBar">false</item>
+    <!-- added these two because Theme.Holo.Light.NoActionBar is incorrectly protected and non-accessible-->
+    <item name="android:windowNoTitle">true</item>
+  </style>
+
+  <!--  <style name="ApplicationThemeNoBar" parent="@android:style/Theme.Light" /> -->
+  <!-- Bold -->
+  <style name="Bold">
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="Required" parent="@android:style/TextAppearance.Large">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">#FF0000</item>
+    <item name="android:typeface">monospace</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+</resources>
